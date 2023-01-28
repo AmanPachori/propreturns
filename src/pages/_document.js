@@ -8,6 +8,8 @@ export default function Document() {
         <Main />
         <NextScript />
       </body>
+      <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
+
     </Html>
   )
 }
