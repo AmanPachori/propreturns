@@ -37,9 +37,8 @@ const DropDown = ({title,data}) => {
           {
             data.map((e)=>{
               return(
-                <li>
+                <li key={e}>
                 <a
-                 key={e}
                   href="#"
                   class="block px-4 py-2   dark:hover:text-black"
                 >
