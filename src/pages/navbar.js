@@ -6,7 +6,7 @@ const  Navbar = () => {
       <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-white-900 w-full top-0 left-0  ">
         <div class="container-xl flex flex-wrap items-center justify-between mx-auto px-3">
           <a href="https://flowbite.com/" class="flex items-center">
-            <Image
+            <img
               src="https://flowbite.com/docs/images/logo.svg"
               class="h-6 mr-3 sm:h-9"
               alt="Flowbite Logo"
