@@ -2,12 +2,12 @@ import React from "react";
 import DropDown from "./components/dropDown";
 
 const CustomNav = () => {
-  const data = ['dropDown1','dropDown2','dropDown3']
+  const data = ["dropDown1", "dropDown2"]
   return (
-    <div className="px-2 mx-2">
-      <div class=" grid xl:grid-cols-6 2xl:grid-cols-8 sm:grid-cols-3 lg:grid-cols-4 gap-1  container-xl items-center justify-evenly">
-        <div className="search lg:col-span-2 sm:col-span-1 ">
-          <form class="mx-2 items-center">
+    <div className="px-1 my-2">
+      <div class=" grid xl:grid-cols-6 2xl:grid-cols-8 grid-cols-2 lg:grid-cols-4 gap-1  container-xl items-center justify-evenly">
+        <div className="search px-3 w-full">
+          <form class="mx-2 w-full items-center">
             <label for="simple-search" class="sr-only">
               Search
             </label>
@@ -37,26 +37,26 @@ const CustomNav = () => {
             </div>
           </form>
         </div>
-        <div>
+        <div className="px-3">
           <DropDown title="For Sale" data={data} />
         </div>
-        <div>
+        <div className="px-3">
           <DropDown title="Type House" data={data} />
         </div>
-        <div>
+        <div className="px-3">
           <DropDown title="Min Price:  $500k" data={data} />
         </div>
-        <div>
+        <div className="px-3">
           <DropDown title="Max Price:  $700k" data={data} />
         </div>
-        <div>
+        <div className="px-3">
           <DropDown title="Floor Area" data={data} />
         </div>
-        <div className="px-3">
+        <div className="px-3 w-full ">
           <button
-            class="text-black moreButton font-semibold	 focus:ring-4 focus:outline-none focus:ring-blue-300 font-small rounded-lg text-xs px-4 py-2.5 text-center inline-flex items-center dark:bg-gray-100		"
+            class="text-black w-full moreButton font-semibold	 focus:ring-4 focus:outline-none focus:ring-blue-300 font-small rounded-lg text-xs px-4 mx-3 py-2.5 text-center flex justify-between items-center dark:bg-gray-100		"
             type="button"
-          >
+          >    
             more
             <svg
               xmlns="http://www.w3.org/2000/svg"

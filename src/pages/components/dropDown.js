@@ -2,11 +2,11 @@ import React from 'react'
 
 const DropDown = ({title,data}) => {
   return (
-    <div className='mx-3 my-2 px-2 dropdown p-1'>
+    <div className='my-2 w-full dropdown'>
       <button
         id="dropdownDefaultButton"
         data-dropdown-toggle="dropdown"
-        class="text-black font-semibold	 focus:ring-4 focus:outline-none focus:ring-blue-300 font-small rounded-lg text-xs px-5 py-2.5 mx-2 text-center inline-flex items-center dark:bg-gray-100"
+        class="text-black font-semibold w-full	focus:ring-4 focus:outline-none focus:ring-blue-300 font-small rounded-lg text-xs px-5 py-2.5 mx-2 text-center flex justify-between items-center dark:bg-gray-100"
         type="button"
       >
        {title}
@@ -31,7 +31,7 @@ const DropDown = ({title,data}) => {
         class="z-10 hidden divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-100"
       >
         <ul
-          class="py-2 text-sm text-black dark:text-black"
+          class="py-2 z-9999 text-sm text-black dark:text-black"
           aria-labelledby="dropdownDefaultButton"
         >
           {
