@@ -31,7 +31,7 @@ export default function Home() {
         <div className="grid gap-0 lg:grid-cols-2 sm:grid-cols-2">
           {userData?.map((e)=>{
             return(
-              <Card e={e}/>
+              <Card  key={e.price} e={e}/>
             )
           })}
         </div>
