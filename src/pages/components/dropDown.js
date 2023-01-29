@@ -39,6 +39,7 @@ const DropDown = ({title,data}) => {
               return(
                 <li>
                 <a
+                 key = {e[0]}
                   href="#"
                   class="block px-4 py-2   dark:hover:text-black"
                 >
